@@ -154,7 +154,7 @@
         </member>
         <member name="P:FluentEvents.Azure.ServiceBus.Receiving.AzureTopicEventReceiverOptions.SubscriptionName">
             <summary>
-                The name of the topic subscriptions. (If null <see cref="P:FluentEvents.Azure.ServiceBus.Receiving.AzureTopicEventReceiverOptions.SubscriptionNameProvider"/> will be used)
+                The name of the topic subscriptions. (If <see langword="null"/>, <see cref="P:FluentEvents.Azure.ServiceBus.Receiving.AzureTopicEventReceiverOptions.SubscriptionNameProvider"/> will be used)
             </summary>
         </member>
         <member name="P:FluentEvents.Azure.ServiceBus.Receiving.AzureTopicEventReceiverOptions.IsSubscriptionCreationEnabled">

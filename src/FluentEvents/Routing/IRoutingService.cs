@@ -2,7 +2,7 @@
 using FluentEvents.Infrastructure;
 using FluentEvents.Pipelines;
 
-namespace FluentEvents.Attachment
+namespace FluentEvents.Routing
 {
     internal interface IRoutingService
     {

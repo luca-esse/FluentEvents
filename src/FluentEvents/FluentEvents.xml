@@ -83,7 +83,7 @@
             </remarks>
             <param name="plugin">The instance of the plugin.</param>
             <exception cref="T:System.ArgumentNullException">
-                <paramref name="plugin"/> is null.
+                <paramref name="plugin"/> is <see langword="null"/>.
             </exception>
             <exception cref="T:FluentEvents.Plugins.DuplicatePluginException">
                 Another plugin with the same type has already been added.
@@ -235,7 +235,7 @@
             <param name="eventsScope">The scope where the queued events were published.</param>
             <param name="queueName">
                 The name of the queue.
-                If null all the events will be processed.
+                If <see langword="null"/> all the events will be processed.
             </param>
             <exception cref="T:FluentEvents.Queues.EventsQueueNotFoundException">
                 No queues were found with the supplied <paramref name="queueName"/>.
@@ -251,7 +251,7 @@
             <param name="eventsScope">The scope where the queued events were published.</param>
             <param name="queueName">
                 The name of the queue.
-                If null all the events will be discarded.
+                If <see langword="null"/> all the events will be discarded.
             </param>
             <exception cref="T:FluentEvents.Queues.EventsQueueNotFoundException">
                 No queues were found with the supplied <paramref name="queueName"/>.
@@ -365,7 +365,7 @@
             </summary>
             <param name="clrType"></param>
             <exception cref="T:System.ArgumentNullException">
-                <paramref name="clrType"/> is null.
+                <paramref name="clrType"/> is <see langword="null"/>.
             </exception>
         </member>
         <member name="T:FluentEvents.Model.SourceModelEventField">
@@ -437,7 +437,7 @@
             <typeparam name="TConfig">The type of the module configuration.</typeparam>
             <param name="moduleConfig">An instance of the module configuration</param>
             <exception cref="T:System.ArgumentNullException">
-                <paramref name="moduleConfig"/> is null.
+                <paramref name="moduleConfig"/> is <see langword="null"/>.
             </exception>
             <exception cref="T:FluentEvents.Pipelines.PipelineModuleNotFoundException">
                 The TModule type wasn't registered in the internal service provider.
@@ -495,7 +495,7 @@
             <param name="pipelineEvent">The event being processed.</param>
             <param name="eventsScope">The current events scope.</param>
             <exception cref="T:System.ArgumentNullException">
-                <paramref name="pipelineEvent"/> and/or <paramref name="eventsScope"/> are null.
+                <paramref name="pipelineEvent"/> and/or <paramref name="eventsScope"/> are <see langword="null"/>.
             </exception>
         </member>
         <member name="T:FluentEvents.Pipelines.PipelineEvent">
@@ -661,7 +661,7 @@
                 The same <see cref="T:FluentEvents.Configuration.EventPipelineConfiguration`1"/> instance so that multiple calls can be chained.
             </returns>
             <exception cref="T:System.ArgumentNullException">
-                <paramref name="eventPipelineConfiguration"/> and/or <paramref name="queueName"/> are null <see langword="null"/>.
+                <paramref name="eventPipelineConfiguration"/> and/or <paramref name="queueName"/> are <see langword="null"/>.
             </exception>
         </member>
         <member name="T:FluentEvents.Plugins.DuplicatePluginException">

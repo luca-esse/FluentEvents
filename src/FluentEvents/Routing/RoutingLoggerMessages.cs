@@ -2,7 +2,7 @@
 using FluentEvents.Pipelines;
 using Microsoft.Extensions.Logging;
 
-namespace FluentEvents.Attachment
+namespace FluentEvents.Routing
 {
     internal static class RoutingLoggerMessages
     {

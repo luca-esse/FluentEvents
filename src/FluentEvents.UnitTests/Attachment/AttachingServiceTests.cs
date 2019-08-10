@@ -4,6 +4,7 @@ using FluentEvents.Attachment;
 using FluentEvents.Infrastructure;
 using FluentEvents.Model;
 using FluentEvents.Pipelines;
+using FluentEvents.Routing;
 using Moq;
 using NUnit.Framework;
 

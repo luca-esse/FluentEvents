@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using FluentEvents.Infrastructure;
 using FluentEvents.Model;
 using FluentEvents.Pipelines;
+using FluentEvents.Routing;
 
 namespace FluentEvents.Attachment
 {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using FluentEvents.Attachment;
 using FluentEvents.Infrastructure;
 using FluentEvents.Pipelines;
+using FluentEvents.Routing;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;

@@ -11,6 +11,7 @@ using FluentEvents.Pipelines.Queues;
 using FluentEvents.Plugins;
 using FluentEvents.Publication;
 using FluentEvents.Queues;
+using FluentEvents.Routing;
 using FluentEvents.ServiceProviders;
 using FluentEvents.Subscriptions;
 using FluentEvents.Transmission;
