@@ -18,7 +18,7 @@ namespace FluentEvents.Configuration
         /// </remarks>
         /// <param name="plugin">The instance of the plugin.</param>
         /// <exception cref="ArgumentNullException">
-        ///     <paramref name="plugin"/> is null.
+        ///     <paramref name="plugin"/> is <see langword="null"/>.
         /// </exception>
         /// <exception cref="DuplicatePluginException">
         ///     Another plugin with the same type has already been added.

@@ -109,7 +109,7 @@ namespace FluentEvents
         /// <param name="eventsScope">The scope where the queued events were published.</param>
         /// <param name="queueName">
         ///     The name of the queue.
-        ///     If null all the events will be processed.
+        ///     If <see langword="null"/> all the events will be processed.
         /// </param>
         /// <exception cref="EventsQueueNotFoundException">
         ///     No queues were found with the supplied <paramref name="queueName"/>.
@@ -132,7 +132,7 @@ namespace FluentEvents
         /// <param name="eventsScope">The scope where the queued events were published.</param>
         /// <param name="queueName">
         ///     The name of the queue.
-        ///     If null all the events will be discarded.
+        ///     If <see langword="null"/> all the events will be discarded.
         /// </param>
         /// <exception cref="EventsQueueNotFoundException">
         ///     No queues were found with the supplied <paramref name="queueName"/>.

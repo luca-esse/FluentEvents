@@ -17,7 +17,7 @@ namespace FluentEvents.Pipelines
         /// <typeparam name="TConfig">The type of the module configuration.</typeparam>
         /// <param name="moduleConfig">An instance of the module configuration</param>
         /// <exception cref="ArgumentNullException">
-        ///     <paramref name="moduleConfig"/> is null.
+        ///     <paramref name="moduleConfig"/> is <see langword="null"/>.
         /// </exception>
         /// <exception cref="PipelineModuleNotFoundException">
         ///     The TModule type wasn't registered in the internal service provider.

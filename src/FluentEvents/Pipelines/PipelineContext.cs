@@ -24,7 +24,7 @@ namespace FluentEvents.Pipelines
         /// <param name="pipelineEvent">The event being processed.</param>
         /// <param name="eventsScope">The current events scope.</param>
         /// <exception cref="ArgumentNullException">
-        ///     <paramref name="pipelineEvent"/> and/or <paramref name="eventsScope"/> are null.
+        ///     <paramref name="pipelineEvent"/> and/or <paramref name="eventsScope"/> are <see langword="null"/>.
         /// </exception>
         public PipelineContext(PipelineEvent pipelineEvent, IEventsScope eventsScope)
         {

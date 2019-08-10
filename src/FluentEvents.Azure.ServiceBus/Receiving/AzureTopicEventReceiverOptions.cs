@@ -41,7 +41,7 @@ namespace FluentEvents.Azure.ServiceBus.Receiving
         public Func<string> SubscriptionNameProvider { get; set; } = () => Guid.NewGuid().ToString();
 
         /// <summary>
-        ///     The name of the topic subscriptions. (If null <see cref="SubscriptionNameProvider"/> will be used)
+        ///     The name of the topic subscriptions. (If <see langword="null"/>, <see cref="SubscriptionNameProvider"/> will be used)
         /// </summary>
         public string SubscriptionName { get; set; }
 

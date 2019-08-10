@@ -31,7 +31,7 @@ namespace FluentEvents.Model
         /// </summary>
         /// <param name="clrType"></param>
         /// <exception cref="ArgumentNullException">
-        ///     <paramref name="clrType"/> is null.
+        ///     <paramref name="clrType"/> is <see langword="null"/>.
         /// </exception>
         public SourceModel(Type clrType)
         {
